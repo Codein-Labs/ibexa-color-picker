@@ -1,6 +1,7 @@
 # Codein IbexaColorPicker
 
 Symfony bundle that adds color management to Ibexa Platform.
+(If you want an eZ Platform 2.5 compatible version of this bundle, check this repository instead : https://github.com/Codein-Labs/ezplatform-color-picker)
 
 ## Installation
 
