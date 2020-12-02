@@ -1,17 +1,17 @@
-# Codein eZColorPicker
+# Codein IbexaColorPicker
 
-Symfony bundle that adds color management to eZ Platform.
+Symfony bundle that adds color management to Ibexa Platform.
 
 ## Installation
 
 ```
-composer require codein/ez-color-picker:dev-develop
+composer require codein/ibexa-color-picker
 ```
 
-Activate the bundle in AppKernel.php
+Activate the bundle in bundles.php
 
 ```
-new Codein\eZColorPicker\eZColorPickerBundle()
+Codein\eZColorPicker\eZColorPickerBundle::class => ['all' => true],
 ```
 
 Compile the assets for the admin UI
