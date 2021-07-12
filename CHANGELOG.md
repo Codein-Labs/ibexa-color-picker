@@ -8,9 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fix exception when building forms
 
+### Changed
+- Changed clear button label (#5 and #6)
 
 ## [1.0.1] - 2020-09-23
-## Fixed
+### Fixed
 - Package no longer require `dev` minimum stability.
 
 ## [1.0.0] - 2020-09-23
