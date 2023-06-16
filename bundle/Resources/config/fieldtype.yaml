@@ -9,12 +9,12 @@ services:
     calls:
       - [ 'setColorConverter', ["@Codein\\ColorConverter\\ColorConverter"] ]
     tags:
-      - { name: ezplatform.field_type, alias: "%codein.fieldtype.color.identifier%" }
-      - { name: ezplatform.field_type.form_mapper.value, fieldType: "%codein.fieldtype.color.identifier%" }
-      - { name: ezplatform.field_type.form_mapper.definition, fieldType: "%codein.fieldtype.color.identifier%" }
+      - { name: ibexa.field_type, alias: "%codein.fieldtype.color.identifier%" }
+      - { name: ibexa.admin_ui.field_type.form.mapper.value, fieldType: "%codein.fieldtype.color.identifier%" }
+      - { name: ibexa.admin_ui.field_type.form.mapper.definition, fieldType: "%codein.fieldtype.color.identifier%" }
 
   codein.ezcolorpicker.fieldtype.colorpicker.type.notindexable:
-    class: eZ\Publish\Core\FieldType\Unindexed
+    class: Ibexa\Core\FieldType\Unindexed
     tags:
-      - { name: ezplatform.field_type.indexable, alias: "%codein.fieldtype.color.identifier%" }
+      - { name: ibexa.field_type.indexable, alias: "%codein.fieldtype.color.identifier%" }
 

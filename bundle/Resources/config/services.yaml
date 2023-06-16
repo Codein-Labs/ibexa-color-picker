@@ -2,3 +2,8 @@ services:
   Codein\ColorConverter\ColorConverter:
     autowire: true
     public: true
+
+  ibexa.field_type.codeincolor.converter:
+    class: Ibexa\Core\Persistence\Legacy\Content\FieldValue\Converter\NullConverter
+    tags:
+      - { name: ibexa.field_type.storage.legacy.converter, alias: codeincolor }

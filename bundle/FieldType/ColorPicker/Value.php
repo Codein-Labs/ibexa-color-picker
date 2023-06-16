@@ -3,7 +3,7 @@
 
 namespace Codein\eZColorPicker\FieldType\ColorPicker;
 
-use eZ\Publish\SPI\FieldType\Value as ValueInterface;
+use Ibexa\Contracts\Core\FieldType\Value as ValueInterface;
 
 final class Value implements ValueInterface
 {

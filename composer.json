@@ -25,7 +25,7 @@
     "require": {
         "php": "^7.3",
         "ext-json": "*",
-        "ezsystems/ezplatform-kernel": "~1.0"
+        "ibexa/core": "~4.5"
     },
     "autoload": {
         "psr-4": {

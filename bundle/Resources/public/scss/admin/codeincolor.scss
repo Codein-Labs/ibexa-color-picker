@@ -3,8 +3,9 @@
 .codeincolor {
   &__edit-container {
     display: flex;
+    margin-top: 25px;
 
-    .ez-data-source__field {
+    .ibexa-data-source__field {
       margin-left: 5px;
     }
     .pickr {

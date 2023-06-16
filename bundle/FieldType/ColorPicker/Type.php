@@ -6,11 +6,11 @@ namespace Codein\eZColorPicker\FieldType\ColorPicker;
 use Codein\ColorConverter\ColorConverter;
 use Codein\eZColorPicker\Form\Type\ColorPickerSettingsType;
 use Codein\eZColorPicker\Form\Type\ColorPickerType;
-use eZ\Publish\SPI\FieldType\Generic\Type as GenericType;
-use EzSystems\EzPlatformAdminUi\FieldType\FieldDefinitionFormMapperInterface;
-use EzSystems\EzPlatformAdminUi\Form\Data\FieldDefinitionData;
-use EzSystems\EzPlatformContentForms\Data\Content\FieldData;
-use EzSystems\EzPlatformContentForms\FieldType\FieldValueFormMapperInterface;
+use Ibexa\Contracts\Core\FieldType\Generic\Type as GenericType;
+use Ibexa\AdminUi\FieldType\FieldDefinitionFormMapperInterface;
+use Ibexa\AdminUi\Form\Data\FieldDefinitionData;
+use Ibexa\Contracts\ContentForms\Data\Content\FieldData;
+use Ibexa\Contracts\ContentForms\FieldType\FieldValueFormMapperInterface;
 use Symfony\Component\Form\FormInterface;
 use Codein\eZColorPicker\FieldType\ColorPicker\Value as ColorPickerValue;
 
