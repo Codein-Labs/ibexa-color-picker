@@ -23,9 +23,9 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^7.4 || ^8.2",
         "ext-json": "*",
-        "ibexa/core": "~4.5"
+        "ibexa/core": "~4.6"
     },
     "autoload": {
         "psr-4": {
