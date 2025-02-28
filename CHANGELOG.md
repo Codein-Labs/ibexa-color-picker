@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [4.0.0] - 2025-02-26
 ### Changed
 - Added compatibility for Ibexa 4.6
+- update simonwep/pickr to 1.9.1 
 
 ## [3.0.0] - 2023-06-16
 ### Changed

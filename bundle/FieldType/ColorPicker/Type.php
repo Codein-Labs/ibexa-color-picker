@@ -67,7 +67,7 @@ final class Type extends GenericType implements FieldValueFormMapperInterface, F
         $fieldForm->add('value', ColorPickerType::class, [
             'required' => $definition->isRequired,
             'label' => $definition->getName(),
-            'defaultValue' => $definition->fieldSettings['defaultValue'],
+            'defaultValue' => $definition->fieldSettings['defaultValue'] ?? [],
         ]);
     }
 
