@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [4.0.0] - 2025-02-26
 ### Changed
-- Added compatibility for php 8.2 
+- Added compatibility for Ibexa 4.6
 
 ## [3.0.0] - 2023-06-16
 ### Changed
